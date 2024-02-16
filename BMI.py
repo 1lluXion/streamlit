@@ -49,4 +49,6 @@ def plot_bmi_chart():
 button = st.button("Calculate BMI")
 if button:
     calculate_bmi()
+button = st.button("See Chart")
+if button:
     plot_bmi_chart()
